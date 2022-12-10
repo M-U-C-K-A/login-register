@@ -1,7 +1,7 @@
-Pages de connexion et d'inscription
-Cette collection de fichiers vous permet de créer facilement des pages de connexion et d'inscription pour votre site web. Chaque fichier contient des formulaires de connexion et d'inscription sécurisés, ainsi que des options de personnalisation pour les champs et les styles.
+## Pages de connexion et d'inscription
+> Cette collection de fichiers vous permet de créer facilement des pages de connexion et d'inscription pour votre site web. Chaque fichier contient des formulaires de connexion et d'inscription sécurisés, ainsi que des options de personnalisation pour les champs et les styles.
 
-Installation
+## Installation
 Pour utiliser ces fichiers, vous devez d'abord télécharger et installer GitHub sur votre ordinateur. Vous pouvez ensuite utiliser la ligne de commande pour accéder à ces fichiers et les intégrer à votre site web.
 
 ## Utilisation
