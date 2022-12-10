@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+    <title>login / register</title>
+    <style>
+        body {
+          user-select: none;
+          background: rgb(13,21,33);
+background: linear-gradient(246deg, rgba(13,21,33,1) 0%, rgba(8,46,54,1) 100%);          
+        }
+        .formulary {
+            display: flex;
+            margin: auto;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    form {
+      width: 400px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: rgba(68, 68, 68, 0.478);
+      border-radius: 5px;
+    }
+  
+    input,
+    button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #555;
+      color: #fff;
+    }
+  
+    input:focus,
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px #777;
+    }
+  
+    button {
+      cursor: pointer;
+      background-color: #777;
+        transition: .5s;
+    }
+    button:hover, .bg-orange {
+        background-color: orange;
+    }
+  </style>
+</head>
+
+<body class="text-white bg-gray-900">
+    <h1 class="text-4xl font-extrabold underline text-left py-6">formulaire de login :</h1>
+<div class="formulary">
+    <form action="">
+        <label for="username" class="block font-bold text-lg mb-2">
+          Nom d'utilisateur
+        </label>
+        <input type="text" placeholder="Ps€ud0" id="username" />
+    <label for="password" class="block font-bold text-lg mb-2">
+      Mot de passe
+    </label>
+    <input type="password" placeholder="Zh-45Z4-b8" id="password" />
+  
+    <button type="submit" class="block font-bold text-lg py-2">
+      Se connecter
+    </button>
+    </form>
+</div>
+<h1 class="text-4xl font-extrabold underline text-left py-6">formulaire de register :</h1>
+<div class="formulary">
+    <form action="">
+        <label for="email" class="block font-bold text-lg mb-2">
+          Adresse email
+        </label>
+        <input type="email" placeholder="JohnDoe@exemple.com" id="email" />
+    <label for="phone" class="block font-bold text-lg mb-2">
+      Téléphone
+    </label>
+    <input type="tel" placeholder="+33-06 78 45 25 15" id="phone" />
+  
+    <label for="name" class="block font-bold text-lg mb-2">
+      Nom
+    </label>
+    <input type="text" placeholder="Doe" id="name" />
+  
+    <label for="surname" class="block font-bold text-lg mb-2">
+      Prénom
+    </label>
+    <input type="text" placeholder="John" id="surname" />
+  
+    <label for="password" class="block font-bold text-lg mb="2">
+        Mot de passe
+        </label>
+        <input type="password" placeholder="Pz-1a6-A5" id="password" />
+        <div class="w-3/5 h-1 bg-orange rounded-full"></div>
+        <p class="italic text-gray-400">Not safe password !</p>
+        <br>
+          <button type="submit" class="block font-bold text-lg py-2">
+            S'inscrire
+          </button>
+        </form>
+    </div>
+    </body>
+</html>
