@@ -1,4 +1,4 @@
-## Pages de connexion et d'inscription
+# Pages de connexion et d'inscription
 > Cette collection de fichiers vous permet de créer facilement des pages de connexion et d'inscription pour votre site web. Chaque fichier contient des formulaires de connexion et d'inscription sécurisés, ainsi que des options de personnalisation pour les champs et les styles.
 
 ## Installation
